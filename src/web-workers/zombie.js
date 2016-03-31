@@ -5,9 +5,13 @@ var Zombie = (function () {
 
   //TODO:
   // z = new Zombie(maxX, maxY)
-  // z.on("change", fn)
-  // z.getPosition() => {left: 98, top: 13}
-  // z.getSpeed() => 5000/1..5
+  // z.on("change", function () {
+  //   z.getPosition() //=> {left: 98, top: 13}
+  //   z.getSpeed() //=> 5000/1..5
+  // })
+
+  // z.setPosition(x, y);
+
 
   return null;
 

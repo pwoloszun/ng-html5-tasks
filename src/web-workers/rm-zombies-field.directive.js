@@ -1,4 +1,13 @@
-// var ZOMBIE_TEMPLATE = "<div class='zombie'></div>";
+var ZOMBIE_TEMPLATE = "<div class='zombie'></div>";
+
+var zombieEl = $(ZOMBIE_TEMPLATE);
+zombieEl.css({top: 12, left: Math.random() * 100});
+
+var fieldEl = element.find(".zombies-field");
+
+
+
+fieldEl.append(zombieEl)
 
 // TODO: get field position
 // var fieldEl = element.find(".zombies-field");
